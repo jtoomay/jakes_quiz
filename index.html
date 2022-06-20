@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Jake's Quiz App!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  </head>
+  <body>
+    <!-- Title: eCommerce Quiz
+
+        Question 1: Which of the following is not a real eCommerce platform?
+        - Shopify 
+        - WooCommerce
+        - ShopCommerce [correct]
+        - BigCommerce -->
+
+    <div id="1" class="question active">
+      <h1>eCommerce Quiz</h1>
+      <h3>Question 1 out of 3</h3>
+      <h3>Which of the following is not a real eCommerce platform?</h3>
+      <div class="answer-choice">
+        <input
+          id="customAnswer1"
+          type="radio"
+          value="Shopify"
+          name="question"
+        />
+        <label for="customAnswer1" class="label"> Shopify </label>
+      </div>
+
+      <div class="answer-choice">
+        <input
+          id="customAnswer2"
+          type="radio"
+          value="WooCommerce"
+          name="question"
+        />
+        <label for="customAnswer2" class="label"> WooCommerce </label>
+      </div>
+      <div class="answer-choice correct">
+        <input
+          id="customAnswer3"
+          type="radio"
+          value="ShopCommerce"
+          name="question"
+        />
+        <label for="customAnswer3" class="label"> ShopCommerce </label>
+      </div>
+      <div class="answer-choice">
+        <input
+          id="customAnswer4"
+          type="radio"
+          value="BigCommerce"
+          name="question"
+        />
+        <label for="customAnswer4" class="label"> BigCommerce </label>
+      </div>
+      <button class="submit">Submit</button>
+    </div>
+
+    <!-- 
+    Question 2: If Shopify is so good, why are Shopify developers necessary?
+    - To save time on things like store setups and migrations
+- To extend the limited design options and functionalities of themes with custom code
+- To provide support with a deep understanding of how the platform works and what its limitations are
+- All the above [correct] -->
+
+    <div id="2" class="question">
+      <h1>eCommerce Quiz</h1>
+      <h3>Question 2 out of 3</h3>
+      <h3>If Shopify is so good, why are Shopify developers necessary?</h3>
+      <div class="answer-choice">
+        <input
+          id="customAnswer1"
+          type="radio"
+          value="To save time on things like store setups and migrations"
+          name="question"
+        />
+        <label for="customAnswer1" class="label">
+          To save time on things like store setups and migrations
+        </label>
+      </div>
+
+      <div class="answer-choice">
+        <input
+          id="customAnswer2"
+          type="radio"
+          value="To extend the limited design options and functionalities of themes with custom code"
+          name="question"
+        />
+        <label for="customAnswer2" class="label">
+          To extend the limited design options and functionalities of themes
+          with custom code
+        </label>
+      </div>
+      <div class="answer-choice">
+        <input
+          id="customAnswer3"
+          type="radio"
+          value="To provide support with a deep understanding of how the platform works and what its limitations are"
+          name="question"
+        />
+        <label for="customAnswer3" class="label">
+          To provide support with a deep understanding of how the platform works
+          and what its limitations are
+        </label>
+      </div>
+      <div class="answer-choice correct">
+        <input
+          id="customAnswer4"
+          type="radio"
+          value="All the above"
+          name="question"
+        />
+        <label for="customAnswer4" class="label"> All the above </label>
+      </div>
+      <button class="submit">Submit</button>
+    </div>
+
+    <!-- Question 3: Which of the following is true about Shopify developers?
+    - They are paid extremely well
+    - There is a high demand for them
+    - They need to know web development, the platform itself, and the liquid template language
+    - All the above [correct] -->
+
+    <div id="3" class="question">
+      <h1>eCommerce Quiz</h1>
+      <h3>Question 3 out of 3</h3>
+      <h3>Which of the following is true about Shopify developers?</h3>
+      <div class="answer-choice">
+        <input
+          id="customAnswer1"
+          type="radio"
+          value="They are paid extremely well"
+          name="question"
+        />
+        <label for="customAnswer1" class="label">
+          They are paid extremely well
+        </label>
+      </div>
+
+      <div class="answer-choice">
+        <input
+          id="customAnswer2"
+          type="radio"
+          value="There is a high demand for them"
+          name="question"
+        />
+        <label for="customAnswer2" class="label">
+          There is a high demand for them
+        </label>
+      </div>
+      <div class="answer-choice">
+        <input
+          id="customAnswer3"
+          type="radio"
+          value="They need to know web development, the platform itself, and the liquid template language"
+          name="question"
+        />
+        <label for="customAnswer3" class="label">
+          They need to know web development, the platform itself, and the liquid
+          template language
+        </label>
+      </div>
+      <div class="answer-choice correct">
+        <input
+          id="customAnswer4"
+          type="radio"
+          value="All the above"
+          name="question"
+        />
+        <label for="customAnswer4" class="label"> All the above </label>
+      </div>
+      <button class="submit">Submit</button>
+    </div>
+
+    <div id="4" class="question">
+      <h1>The Quiz is Over</h1>
+
+      <button class="restart">Restart</button>
+    </div>
+    <button id="next-question" class="next-question">Next Question</button>
+
+    <script src="main.js"></script>
+  </body>
+</html>

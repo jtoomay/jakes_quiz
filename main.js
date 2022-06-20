@@ -34,8 +34,3 @@ console.log(reset);
 reset.addEventListener("click", () => {
   window.location.reload();
 });
-
-if (currentQuestion < 3)
-  () => {
-    alert("Test");
-  };
